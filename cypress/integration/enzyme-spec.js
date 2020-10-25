@@ -3,7 +3,7 @@ import React from 'react'
 import chaiEnzyme from 'chai-enzyme'
 import { configure, shallow } from 'enzyme'
 
-import Greeting from '../../greeting'
+import Greeting from '../../Greeting'
 
 // HACK: chai-enzyme does not play nice with chai-jquery, so remove the
 // problem-causing assertions that collide with chai-jquery

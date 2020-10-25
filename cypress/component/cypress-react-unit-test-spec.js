@@ -1,8 +1,6 @@
-/// <reference types="cypress" />
-/* eslint-disable react/jsx-filename-extension */
 import { mount } from 'cypress-react-unit-test'
 import React from 'react'
-import Greeting from '../../greeting'
+import Greeting from '../../Greeting'
 
 describe('cypress-react-unit-test', () => {
   it('shows greeting', () => {
